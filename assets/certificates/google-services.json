@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "36856861787",
+    "project_id": "significantothersearch-2f347",
+    "storage_bucket": "significantothersearch-2f347.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36856861787:android:f1aa985e0a3cc934cddb7e",
+        "android_client_info": {
+          "package_name": "com.sosearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36856861787-fu9pjbpfnqt9t5j9q9bq66tpf68qst6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5T2NXC-DqF4ucJLK2s3tlYGaq4hKf6ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36856861787-fu9pjbpfnqt9t5j9q9bq66tpf68qst6h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "36856861787-3ls9fv3o5qe8h0e3d269jcka4nitbfm0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sosearch",
+                "app_store_id": "1533108308"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

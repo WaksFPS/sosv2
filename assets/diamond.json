@@ -1,0 +1,64 @@
+{
+    "IcoMoonType": "selection",
+    "icons": [
+        {
+            "icon": {
+                "paths": [
+                    "M733.491 402.944l-182.682 456.909 456.806-456.909h-274.125zM285.082 376.73l-100.557-223.539-167.629 223.539h268.186zM22.426 402.944l456.806 456.806-182.784-456.806h-274.022zM308.429 364.954l-100.864-224.256h280.269l-179.405 224.256zM697.549 376.73l-182.579-228.147-182.477 228.147h365.056zM324.608 402.944h380.723l-190.362 476.058-190.362-476.058z",
+                    "M744.96 376.73h268.186l-167.629-223.539z",
+                    "M721.51 364.954l100.864-224.154h-280.166z"
+                ],
+                "attrs": [{}, {}, {}],
+                "isMulticolor": false,
+                "isMulticolor2": false,
+                "grid": 0,
+                "tags": ["Diamond"]
+            },
+            "attrs": [{}, {}, {}],
+            "properties": {
+                "order": 5,
+                "id": 0,
+                "name": "Diamond",
+                "prevSize": 32,
+                "code": 59648
+            },
+            "setIdx": 0,
+            "setId": 0,
+            "iconIdx": 0
+        }
+    ],
+    "height": 1024,
+    "metadata": { "name": "diamond" },
+    "preferences": {
+        "showGlyphs": true,
+        "showQuickUse": true,
+        "showQuickUse2": true,
+        "showSVGs": true,
+        "fontPref": {
+            "prefix": "icon-",
+            "metadata": {
+                "fontFamily": "diamond",
+                "majorVersion": 1,
+                "minorVersion": 0
+            },
+            "metrics": { "emSize": 1024, "baseline": 6.25, "whitespace": 50 },
+            "embed": false,
+            "showSelector": false,
+            "showMetrics": false,
+            "showMetadata": false,
+            "showVersion": false
+        },
+        "imagePref": {
+            "prefix": "icon-",
+            "png": true,
+            "useClassSelector": true,
+            "color": 0,
+            "bgColor": 16777215,
+            "classSelector": ".icon"
+        },
+        "historySize": 50,
+        "showCodes": true,
+        "gridSize": 16,
+        "showGrid": false
+    }
+}

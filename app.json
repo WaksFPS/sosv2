@@ -1,0 +1,96 @@
+{
+  "expo": {
+    "name": "SOSearch",
+    "description": "Life is a journey. S.O Search is the way.",
+    "owner": "sosearch",
+    "slug": "sos-mobile-v2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "sosearch",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "googleServicesFile": "./assets/certificates/GoogleService-Info.plist",
+      "bundleIdentifier": "com.sosearch",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification",
+          "voip"
+        ]
+      }
+    },
+    "android": {
+      "googleServicesFile": "./assets/certificates/google-services.json",
+      "package": "com.sosearch",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraMavenRepos": [
+              "../../node_modules/@notifee/react-native/android/libs"
+            ]
+          },
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "expo-dev-launcher",
+      "expo-font",
+      [
+        "@config-plugins/react-native-webrtc",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone"
+        }
+      ],
+      [
+          "react-native-ble-plx",
+          {
+            "isBackgroundEnabled": true,
+          }
+      ],
+      "@config-plugins/react-native-callkeep",
+      "./plugins/RNCallKeep",
+      "./plugins/RNVoipPushNotification/",
+      "@videosdk.live/expo-config-plugin",
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "78236414-2211-4b1f-bfab-95191c728f77"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/78236414-2211-4b1f-bfab-95191c728f77"
+    }
+  }
+}
